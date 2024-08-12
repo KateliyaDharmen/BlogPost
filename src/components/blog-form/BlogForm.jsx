@@ -34,7 +34,7 @@ function BlogForm({ blog }) {
                 navigate(`/blog/${dbBlog.$id}`)
             }
         } else {
-            const file = await dbService.uploadFile(data.image[0]); //todo
+            const file = data.image[0] ?await dbService.uploadFile(data.image[0]) : null //todo
             if (file) {
                 console.log(data, userData)
                 const fileId = file.$id;
