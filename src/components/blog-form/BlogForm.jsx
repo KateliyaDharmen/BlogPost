@@ -74,7 +74,7 @@ function BlogForm({ blog }) {
 
     return (
         <form onSubmit={handleSubmit(submit)} className="flex flex-wrap">
-            <div className="w-2/3 px-2">
+            <div className="w-full lg:w-2/3 xl:w-1/2 px-2 mb-4 lg:mb-0">
                 <Input
                     label="Title :"
                     placeholder="Title"
@@ -92,7 +92,7 @@ function BlogForm({ blog }) {
                 />
                 <RTE label="Content :" name="content" control={control} defaultValue={getValues("content")} />
             </div>
-            <div className="w-1/3 px-2">
+            <div className="w-full lg:w-1/3 xl:w-1/2 px-2">
                 <Input
                     label="Featured Image :"
                     type="file"

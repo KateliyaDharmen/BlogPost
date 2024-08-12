@@ -21,11 +21,11 @@ function Footer() {
                     </div>
                     <div className="w-full p-6 md:w-1/2 lg:w-2/12">
                         <div className="h-full">
-                            <h3 className="tracking-px mb-9  text-xs font-semibold uppercase text-gray-400">
+                            <h3 className="tracking-px mb-8 text-xs font-semibold uppercase text-gray-400">
                                 Company
                             </h3>
                             <ul>
-                                <li className="mb-4">
+                                <li className="mb-3">
                                     <Link
                                         className="text-yellow-400 text-base font-medium hover:text-indigo-400"
                                         to="/"
@@ -33,7 +33,7 @@ function Footer() {
                                         Features
                                     </Link>
                                 </li>
-                                <li className="mb-4">
+                                <li className="mb-3">
                                     <Link
                                         className="text-yellow-400 text-base font-medium hover:text-indigo-400"
                                         to="/"
@@ -41,7 +41,7 @@ function Footer() {
                                         Pricing
                                     </Link>
                                 </li>
-                                <li className="mb-4">
+                                <li className="mb-3">
                                     <Link
                                         className="text-yellow-400 text-base font-medium hover:text-indigo-400"
                                         to="/"
@@ -62,11 +62,11 @@ function Footer() {
                     </div>
                     <div className="w-full p-6 md:w-1/2 lg:w-2/12">
                         <div className="h-full">
-                            <h3 className="tracking-px mb-9  text-xs font-semibold uppercase text-gray-400">
+                            <h3 className="tracking-px mb-8 text-xs font-semibold uppercase text-gray-400">
                                 Support
                             </h3>
                             <ul>
-                                <li className="mb-4">
+                                <li className="mb-3">
                                     <Link
                                         className=" text-base font-medium text-yellow-400 hover:text-indigo-400"
                                         to="/"
@@ -74,7 +74,7 @@ function Footer() {
                                         Account
                                     </Link>
                                 </li>
-                                <li className="mb-4">
+                                <li className="mb-3">
                                     <Link
                                         className=" text-base font-medium text-yellow-400 hover:text-indigo-400"
                                         to="/"
@@ -82,7 +82,7 @@ function Footer() {
                                         Help
                                     </Link>
                                 </li>
-                                <li className="mb-4">
+                                <li className="mb-3">
                                     <Link
                                         className=" text-base font-medium text-yellow-400 hover:text-indigo-400"
                                         to="/"
@@ -103,11 +103,11 @@ function Footer() {
                     </div>
                     <div className="w-full p-6 md:w-1/2 lg:w-3/12">
                         <div className="h-full">
-                            <h3 className="tracking-px mb-9  text-xs font-semibold uppercase text-gray-400">
+                            <h3 className="tracking-px mb-8  text-xs font-semibold uppercase text-gray-400">
                                 Legals
                             </h3>
                             <ul>
-                                <li className="mb-4">
+                                <li className="mb-3">
                                     <Link
                                         className=" text-base font-medium text-yellow-400 hover:text-indigo-400"
                                         to="/"
@@ -115,7 +115,7 @@ function Footer() {
                                         Terms &amp; Conditions
                                     </Link>
                                 </li>
-                                <li className="mb-4">
+                                <li className="mb-3">
                                     <Link
                                         className=" text-base font-medium text-yellow-400 hover:text-indigo-400"
                                         to="/"
