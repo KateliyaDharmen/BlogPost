@@ -43,7 +43,7 @@ function Header() {
       <Container>
         <nav className='flex justify-between items-center'>
           {/* Logo Section */}
-          <div className='mr-4 flex items-center text-yellow-400'>
+          <div className='mr-4 flex items-center'>
             <Link to="/">
               <Logo width="70px" />
             </Link>
@@ -53,7 +53,7 @@ function Header() {
           <div className='block lg:hidden'>
             <button
               onClick={() => setMenuOpen(!menuOpen)}
-              className='text-yellow-400 hover:text-indigo-400 focus:outline-none'
+              className='text-yellow-500 hover:text-yellow-300 focus:outline-none'
             >
               {menuOpen ? <FiX size={30} /> : <FiMenu size={30} />}
             </button>
@@ -66,7 +66,7 @@ function Header() {
                 <li key={item.name}>
                   <button
                     onClick={() => navigate(item.slug)}
-                    className='mx-2 p-2 duration-200 rounded-xl text-lg font-semibold text-yellow-400 hover:text-indigo-400'
+                    className='mx-2 p-2 duration-200 rounded-xl text-lg font-semibold text-yellow-500 hover:text-yellow-300'
                   >
                     {item.name}
                   </button>
@@ -92,7 +92,7 @@ function Header() {
                       navigate(item.slug);
                       setMenuOpen(false); // Close menu after navigating
                     }}
-                    className='block w-full px-4 py-2 text-left text-yellow-400 hover:bg-indigo-400 hover:text-white'
+                    className='block w-full px-4 py-2 text-left text-lg font-semibold text-yellow-500 hover:text-yellow-400'
                   >
                     {item.name}
                   </button>

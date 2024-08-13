@@ -35,8 +35,8 @@ export default function Blog() {
     return blog ? (
         <div className="py-8 mt-16">
             <Container>
-                <div className="bg-gray-900 text-yellow-400 p-4 shadow-xl rounded-lg">
-                    <div className="w-full mb-4 relative rounded-xl p-2 bg-gray-900 text-yellow-400 ">
+                <div className="bg-gray-900 text-yellow-500 p-4 shadow-xl rounded-lg">
+                    <div className="w-full mb-4 relative rounded-xl p-2 bg-gray-900">
                         <img
                             src={dbService.previewFile(blog.featuredimage)}
                             alt={blog.title}

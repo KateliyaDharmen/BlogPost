@@ -5,5 +5,6 @@ import AllBlog from './AllBlog.jsx'
 import AddBlog from './AddBlog.jsx'
 import EditBlog from './EditBlog.jsx'
 import Blog from './Blog.jsx'
+import Loading from './Loading.jsx'
 
-export { Home, Login, Signup, AllBlog, AddBlog, EditBlog, Blog }
+export { Home, Login, Signup, AllBlog, AddBlog, EditBlog, Blog, Loading }

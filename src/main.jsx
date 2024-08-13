@@ -7,7 +7,7 @@ import store from './store/store.js'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './pages/Home.jsx'
 import { AuthLayout } from './components'
-import { Login, Signup, AllBlog, AddBlog, EditBlog, Blog } from './pages'
+import { Login, Signup, AllBlog, AddBlog, EditBlog, Blog, Loading } from './pages'
 
 const router = createBrowserRouter([
   {
@@ -63,7 +63,11 @@ const router = createBrowserRouter([
       {
         path: '/blog/:slug',
         element: <Blog />
-      }
+      },
+      {
+        path: '/loading',
+        element: <Loading />
+      },
     ]
   }
 ])
